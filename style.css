@@ -10,25 +10,34 @@ h1 {
 
 .container {
     display: flex;
-    align-content: center;
-    border: 20px dotted red;
+    justify-items: auto;
+    /* align-content: center; */
+    border: 20px solid black;
 }
 
-img {
-    border: 10px solid white;
-}
-
-.block1 {
+img.pic1, img.pic2, img.pic3 {
     /* display: flex; */
-    border: 5px dashed blueviolet;
+    display: inline-flexbox;
+    width: 100%;
+    align-items: center;
 }
 
-.block2 {
+img.pic1 {
+    border: 2px solid black;
+}
+img.pic2 {
+    border: 2px solid black;
+}
+img.pic3 {
+    border: 2px solid black;
+}
+
+/* img.pic2 {
     /* display: flex; */
-    border: 5px dashed blueviolet
-}
+    /* border: 5px dashed blueviolet; 
+} */
 
-.block3 {
+/* img.pic3 {
     /* display: flex;     */
-    border: 5px dashed blueviolet
-}
+    /* border: 5px dashed blueviolet
+}  */
