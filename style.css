@@ -16,13 +16,34 @@ h3 {
 
 .container {
     display: flex;
-    justify-items: auto;
+    /* justify-items: auto; */
     /* align-content: center; */
     border: 20px solid black;
 }
 
-img.pic1, img.pic2, img.pic3 {
+img.row1, img.row2, img.row3 {
     /* display: flex; */
     width: 100%;
     align-items: center;
     border: 2px solid black;
+}
+
+/* img.pic1 {
+    border: 2px solid black;
+}
+img.pic2 {
+    border: 2px solid black;
+}
+img.pic3 {
+    border: 2px solid black;
+} */
+
+/* img.pic2 {
+    /* display: flex; */
+    /* border: 5px dashed blueviolet; 
+} */
+
+/* img.pic3 {
+    /* display: flex;     */
+    /* border: 5px dashed blueviolet
+}  */
