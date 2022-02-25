@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     color: lime;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
