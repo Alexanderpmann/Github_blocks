@@ -25,7 +25,9 @@ img.row1, img.row2, img.row3 {
     /* display: flex; */
     width: 100%;
     align-items: center;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 50%;
+    float: left;
 }
 
 /* img.pic1 {
