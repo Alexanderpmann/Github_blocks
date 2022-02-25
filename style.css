@@ -23,27 +23,6 @@ h3 {
 
 img.pic1, img.pic2, img.pic3 {
     /* display: flex; */
-    display: inline-flexbox;
     width: 100%;
     align-items: center;
-}
-
-img.pic1 {
     border: 2px solid black;
-}
-img.pic2 {
-    border: 2px solid black;
-}
-img.pic3 {
-    border: 2px solid black;
-}
-
-/* img.pic2 {
-    /* display: flex; */
-    /* border: 5px dashed blueviolet; 
-} */
-
-/* img.pic3 {
-    /* display: flex;     */
-    /* border: 5px dashed blueviolet
-}  */
